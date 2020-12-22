@@ -1,0 +1,33 @@
+{
+  "name": "bookshelf-fields",
+  "version": "0.4.3",
+  "description": "Bookshelf fields",
+  "main": "lib/bookshelf-fields.js",
+  "scripts": {
+    "prepublish": "cake build"
+  },
+  "keywords": [
+    "bookshelf",
+    "orm"
+  ],
+  "author": "\"Alexander Bogdanov\" <andorn@gmail.com>",
+  "license": "BSD-2-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bogus34/bookshelf-fields"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "chai-as-promised": "~5.1.0",
+    "coffee-script": "^1.7.1",
+    "knex": "^0.21.14",
+    "mocha": "*",
+    "pg": "~4.4.0",
+    "sqlite3": "~3.1.0",
+    "when": "^3.2.0"
+  },
+  "dependencies": {
+    "bookshelf": "1.2.0",
+    "checkit": "^0.7.0"
+  }
+}
